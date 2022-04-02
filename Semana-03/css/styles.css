@@ -1,0 +1,14 @@
+/* Header */
+.btn-redes{
+        text-align: right;
+}
+.btn-menu{
+        text-align: left;
+}
+header{
+       border-bottom: solid;
+       border-width: 2px;
+       border-color: rgb(44, 44, 95);
+       height: 8%;
+       margin:1%;
+}
