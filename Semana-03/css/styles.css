@@ -15,6 +15,7 @@ header{
 /* Sidebar */
 .sidebar{
         float:left;
+        *position: fixed;
         padding:10px;
         line-height:30px;
         width:20%;
@@ -30,18 +31,18 @@ h1{
         width:50%;
         padding:40px;
         font-family: serif;
-        font-size: 40px;
+        font-size: 60px;
         color:#373867;
 }
 .sub-title{
         margin:auto;
         width:50%;
-        padding:px;
+        padding:20px;
         font-family: serif;
         font-size: 20px;
         color:#373867;
 }
-.texto-homepage{
+.text-homepage{
         margin:auto;
         width:50%;
         padding:10px;
@@ -49,12 +50,77 @@ h1{
         font-size: 20px;
         color:#373867;
 }
-.imagen1{
+.imagen-home{
         float:right;
-        max-height: 100%px;
 }
-
-        
+/* History section*/
+.history{
+        margin:auto;
+        width:50%;
+        padding:20px;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.text-history{
+        display: inline-block;
+        width:43%;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.imagen-history{
+        float:right;
+}
+.text-history2{
+        margin:auto;
+        width:50%;
+        padding:10px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+/* Funcionalities*/
+.funcionalities{
+        margin:auto;
+        width:50%;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.block{
+        margin: auto;
+        width:36%;
+}
+/* Reasons*/
+.reasons{
+        margin:auto;
+        width:50%;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.block-one{
+        margin: auto;
+        width:36%;
+}
+.my-form{
+        padding: 20px;
+}
+.my-form .form-group{
+        padding-bottom: 15px;
+}
+.my-form label{
+        display: block;
+}
+.my-form input[type="text"], my-form textarea{
+        padding: 8px;
+        width: 100%;
+}
+.my-form input[type="message"], my-form textarea{
+        padding: 8px;
+        width: 100%;
+}   
         
 
 
