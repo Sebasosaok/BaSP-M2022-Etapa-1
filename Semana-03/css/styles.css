@@ -1,14 +1,63 @@
 /* Header */
-.btn-redes{
+.social-media-icon{
         text-align: right;
+        margin:1%;
 }
 .btn-menu{
         text-align: left;
 }
 header{
        border-bottom: solid;
-       border-width: 2px;
-       border-color: rgb(44, 44, 95);
-       height: 8%;
-       margin:1%;
+       border-width: 1px;
+       border-color: #373867;
+       margin-bottom:10px;
 }
+/* Sidebar */
+.sidebar{
+        float:left;
+        padding:10px;
+        line-height:30px;
+        width:20%;
+        height:100%;
+        background-color: #373867;
+}
+a:visited {
+        color:#575897;
+}
+/* HomePage */
+h1{
+        margin:auto;
+        width:50%;
+        padding:40px;
+        font-family: serif;
+        font-size: 40px;
+        color:#373867;
+}
+.sub-title{
+        margin:auto;
+        width:50%;
+        padding:px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.texto-homepage{
+        margin:auto;
+        width:50%;
+        padding:10px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.imagen1{
+        float:right;
+        max-height: 100%px;
+}
+
+        
+        
+
+
+
+
+
