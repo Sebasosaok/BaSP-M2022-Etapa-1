@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles-eliminar.css">
     </head>
     <body>
         <!--Header-->
@@ -23,35 +23,37 @@
         </header>
         <!--Sidebar-->
         <aside class="sidebar">
-            <a href class="btn-menu"><i class="fa-solid fa-bars"></i></a>
-            <p class="p-sidebar"><strong>Menu</strong></p>
+            <div class="btn-menu"><a href class=""><i class="fa-solid fa-bars"></i></a></div>
+            <p class="menu">Menu</p>
             <ul>
                 <a href=""><li>Home</li></a>
                 <a href=""><li>Sing Up</li></a>
                 <a href=""><li>Login</li></a>
                 <a href=""><li>Contact</li></a>
+                <div class="line-one"></div>
             </ul>
-            <p class="p-sidebar"><strong>Get in touch</strong></p>
+            <p><strong>Get in touch</strong></p>
             <ul>
                 <a href=""><li>Worked Hours</li></a>
                 <a href=""><li>Reports</li></a>
                 <a href=""><li>Management</li></a>
                 <a href=""><li>Roles</li></a>
+                <div class="line-two"></div>
             </ul>
-            <p class="p-sidebar"><strong>Trackgenix</strong></p>
+            <p><strong>Trackgenix</strong></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     illo nemo voluptate. Id totam, eum asperiores ratione ducimus
                     fugiat nihil vel voluptas dolores laudantium fugit, saepe non.
             </p>
         </aside>
         <!--HomePage-->
-        <div class="body-container">
+        <div class="general-container">
         <section>
             <div class="container-homepage">
             <h1>Hi, We are Trackgenix SA</h1>
-            <p class="subtitle-homepage">A FREE AND FULLY RESPONSIBE
+            <p class="sub-title">A FREE AND FULLY RESPONSIBE
             </p>
-            <img src="Images/Free.jpg" class="image-homepage">
+            <img src="Images/Free.jpg" class="imagen-home" alt="sample-image">
             <p class="text-homepage">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
                     quis expedita ex delectus deserunt necessitatibus accusantium tempore
@@ -65,15 +67,32 @@
                     Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
                     quis expedita ex delectus deserunt necessitatibus accusantium tempore
             </p>
-            <button class="btn-homepage">LEARN MORE</button>
+            <button class="btn-initial">LEARN MORE</button>
             </div>
         </section>
         <!--History section-->
         <section>
-            <div class="container-history">
-            <h2 class="title-history">History</h2>
-            <img src="Images/Close.jpg" class="image-history-left">
-            <p class="text-one-history">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <h2 class="history">History</h2>
+            <div class="imagen-history-one"><img src="Images/Close.jpg"></div>
+            <p class="text-history">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
+                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
+                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
+                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
+                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="imagen-history-two"><img src="Images/Close.jpg"></div>
+            <p class="text-history-two">
+                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
+                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
                     quis expedita ex delectus deserunt necessitatibus accusantium tempore
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,121 +102,112 @@
                     Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
                     quis expedita ex delectus deserunt necessitatibus accusantium tempore
             </p>
-            <img src="Images/Close.jpg" class="image-history-right">
-            <p class="text-two-history">
-                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
-                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
-                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
-                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio natus autem molestiae magnam asperiores vitae, sapiente placeat
-                    quis expedita ex delectus deserunt necessitatibus accusantium tempore
-            </p>
-            </div>
         </section>
         <!--Funcionalities-->
         <section>
-            <div class="container-funcionalities">
-            <h2 class="title-funcionalities">Funcionalities</h2>
-            <div class="subcontainer-one">
-            <em class="subtitle-one">Record of worked Hours
-            </em>
-            <img src="Images/Reloj.png" class="image-one">
-            <p class="text-one">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
+            <div class="container-one">
+            <h2 class="funcionalities">Funcionalities</h2>
+            <div class="block-one">
+                <em class="title-funcio">Record of worked Hours</em>
+                <img src="Images/Reloj.png" width="40" class="reloj">
+                <p class="funcio">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
             </div>
-            <div class="subcontainer-two">
-            <em class="subtitle-two">Reports
-            </em>
-            <img src="Images/Email.png" class="image-two">
-            <p class="text-two">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
+            <div class="block-five">
+                <em>Reports</em>
+                <img src="Images/Email.png" width="40">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
             </div>
-            <div class="subcontainer-three">
-            <em class="subtitle-three">Resources management</em>
-            <img src="Images/Caja.png" class="image-three">
-            <p class="text-three">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
+            <div class="block-six">
+                <em>Resources management</em>
+                <img src="Images/Caja.png" width="40">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
             </div>
-            <div class="subcontainer-four">
-            <em class="subtitle-four">Multiple roles</em>
-            <img src="Images/Settings.png" class="image-four">
-            <p class="text-four">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
-            </div>
+            <div class="block-eight">
+                <em>Multiple roles</em>
+                <img src="Images/Settings.png" width="40">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
+            </div>    
             </div>
         </section>
         <!--Reasons-->
         <section>
-            <h2>Reasons why you need us</h2>
-            <em>Productivity enhancer
-            </em>
-            <img src="Images/Productivity.png" width="60">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
-            <em>Decision making
-            </em>
-            <img src="Images/Decision.png" width="60">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
-            <em>Work traceability
-            </em>
-            <img src="Images/Trazabilidad.png" width="60">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
-            <em>Leadership and team management
-            </em>
-            <img src="Images/Lider.png" width="60">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
-                    Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
-            </p>
+            <h2 class="reasons">Reasons why you need us</h2>
+            <div class="block-two">
+                <em>Productivity enhancer
+                </em>
+                <img src="Images/Productivity.png" width="60">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
+            </div>
+            <div class="block-two">
+                <em>Decision making
+                </em>
+                <img src="Images/Decision.png" width="60">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
+            </div>
+            <div class="block-two">
+                <em>Work traceability
+                </em>
+                <img src="Images/Trazabilidad.png" width="60">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
+            </div>
+            <div class="block-two">
+                <em>Leadership and team management
+                </em>
+                <img src="Images/Lider.png" width="60">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Ad rerum reprehenderit enim, quo consequatur tenetur odio impedit dolorem?
+                        Vel soluta aut sapiente at cumque sit omnis dolorem eligendi sunt in.
+                </p>
+            </div>
         </section>
         <!--Forms-->
-        <Form>
-            <h4>Request Information</h4>
-                <label>Name</label>
-                <input type="text" name="Name"
-                placeholder="Enter name">
-                <label>Email</label>
+        <Form class="my-form">
+            <h3 class="title-form">Request Information</h3>
+                <div class="form-group">
+                <input type="text" name="name"
+                placeholder="Enter name" class="name">
+                </div>
+                <div class="form-group">
                 <input type="text" email="Email"
-                placeholder="Enter email">
-                <div>
-                    <label>Category</label>
+                placeholder="Enter email" class="email">
+                </div>
+                <div class="form-group">
                     <select name="Category">
+                        <option value="Choose one">Choose one</option>
                         <option value="Human Resources">Human Resources</option>
                         <option value="Systems">Systems</option>
                         <option value="Comercializacion">Comercializacion</option>
                     </select>
                 </div>
-                <div>
-                    <label>Message</label>
+                <div class="form-group">
                     <textarea name="message"></textarea>
                 </div>
-                <button>Send Message</button>
                 <div>
+                <button>Send Message</button>
                 </div>
         </Form>
-        <!--More-Information-->
-        <section>
+            <div class="list-one">
             <h4>Products</h4>
             <ol>
                 <a href=""><li>Features</li></a>
@@ -205,6 +215,8 @@
                 <a href=""><li>Integrations</li></a>
                 <a href=""><li>Extras</li></a>
             </ol>
+            </div>
+            <div class="list-two">
             <h4>Company</h4>
             <ol>
                 <a href=""><li>About us</li></a>
@@ -212,6 +224,8 @@
                 <a href=""><li>Resources</li></a>
                 <a href=""><li>Blog</li></a>
             </ol>
+            </div>
+            <div class="list-three"></div>
             <h4>Support</h4>
             <ol>
                 <a href=""><li>Help</li></a>
@@ -219,7 +233,7 @@
                 <a href=""><li>API</li></a>
                 <a href=""><li>Contact</li></a>
             </ol>
-            <div>
+            <div class="btn-footer">
                 <button>Prev</button>
                 <button>1</button>
                 <button>2</button>
@@ -233,18 +247,15 @@
                 <button>10</button>
                 <button>Next</button>
             </div>
-        </div>
-        </section>
-        <div class="body-container">
+            </div>
         <footer>
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i>
-            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href=""><img src="Images/facebook.jpg" width="20"></a>
+            <a href=""><img src="Images/Twitter.png" width="20"></a>
+            <a href=""><img src="Images/linkedin.jpg" width="20"></a>
+            <a href=""><img src="Images/Instagram.jpg" width="20"></a>
+            <a href=""><img src="Images/Github.jpg" width="20"></a>
             <p>Copyright &copy;
             </p>
         </footer>
-        </div>
     </body>
     </html>

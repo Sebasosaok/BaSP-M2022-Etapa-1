@@ -1,0 +1,226 @@
+/* Header */
+.social-media-icon{
+        text-align: right;
+        margin:1%;
+        text-decoration: none;
+}
+header{
+       border-bottom: solid;
+       border-width: 1px;
+       border-color: #373867;
+       margin-bottom:10px;
+}
+/* Sidebar */
+.sidebar{
+        float:left;
+        position:fixed;
+        padding:10px;
+        line-height:32px;
+        width:20%;
+        height:100%;
+        top:0%;
+        background-color: #AFAFC2;       
+}
+.line-one{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(10, 10, 10);
+}
+.line-two{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(10, 10, 10);
+}
+a:visited {
+        color:#575897;
+}
+.menu{
+        color: rgb(10, 10, 10);
+        font-weight: 100;
+}
+.btn-menu{
+        display: inline-block;
+}
+/* HomePage */
+h1{
+        margin:auto;
+        width:100%;
+        
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.sub-title{
+        margin:auto;
+        width:100%;
+        padding:20px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.text-homepage{
+        margin-top:auto;
+        width:50%;
+        padding:10px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.imagen-home{
+        float:right;
+        height: 400px;
+        width:400px;
+
+}
+.btn-initial{
+        
+        margin-top: 50px;
+        width: 20%;
+        padding:11px;
+        background-color: white;
+}
+.container-homepage{
+        float:left;
+        width:1000px;
+        height: 600px;
+
+}
+/* History section*/
+.history{
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.text-history{
+        display: inline-block;
+        width:40%;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+.imagen-history-two{
+        float:right;       
+}
+.imagen-history-one{
+        float:left;
+}
+.text-history-two{
+        margin:auto;
+        width:50%;
+        padding: 20px;
+        font-family: serif;
+        font-size: 20px;
+        color:#373867;
+}
+/* Funcionalities*/
+.funcionalities{
+        margin:auto;
+        width:50%;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.block-one{
+        display:inline-block;
+        font-size: 14px;
+        width:1000px;
+        height:600px;
+        color:#373867;
+}
+.container-one{
+        background-color: red;
+        float:right;
+        width:1000px;
+        height: 600px;
+}
+.reloj{
+        display: inline-block;
+        margin-right: 100%;
+}
+.title-funcio{
+        display: inline-block;
+        margin-left: 20%;
+}
+.funcio{
+        display: inline-block;
+        margin-left: 20%; 
+}
+.general-container{
+        float:right;
+        margin-right:20px;
+        width:1000px;
+}
+/* Reasons*/
+.reasons{
+        margin:auto;
+        width:50%;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867;
+}
+.block-two{
+        display:inline-block;
+        font-size: 14px;
+        width:46%;
+        color:#373867;
+}
+.title-form{
+        margin:auto;
+        width:50%;
+        font-family: serif;
+        font-size: 60px;
+        color:#373867; 
+}
+.my-form{
+        padding: 20px;
+}
+.form-group{
+        padding-bottom: 15px;
+}
+.my-form input{
+        display:inline-block;
+        padding:8px;
+        width:40%;
+}
+.my-form select{
+        float:right;
+        margin: 20px;
+        padding: 8px;
+        width:70%;
+}
+.my-form textarea{
+        float: right;
+        margin: 20px;
+        width:70%;
+        height:300px;
+}
+.my-form button{
+        background-color: rgb(235, 68, 68);
+        color:white;
+        border-radius: 10px;
+        width: 140px;
+        height: 30px;
+}
+/* Footer*/
+.list-one{
+        display:inline-block;
+        width: 30%;
+}
+.list-two{
+        display:inline-block;
+        width: 30%;
+}
+.list-three{
+        display:inline-block;
+        width: 30%;
+}
+.btn-footer{
+        margin: right;
+        padding: 12px 28px;
+        border-radius: 20%;
+        font-family: serif;
+        font-size: 60px;
+}

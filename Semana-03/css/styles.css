@@ -1,129 +1,219 @@
+/* Body-footer-containers*/
+.body-container{
+    float:right;
+    margin-right:20px;
+    width:1000px;
+}
+.footer-container{
+    float:right;
+    margin-right:20px;
+    width:1000px;
+}
 /* Header */
 .social-media-icon{
-        text-align: right;
-        margin:1%;
-}
-.btn-menu{
-        text-align: left;
+    text-align: right;
+    margin: 20px;
 }
 header{
-       border-bottom: solid;
-       border-width: 1px;
-       border-color: #373867;
-       margin-bottom:10px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #373867;
+    margin-bottom:10px;
 }
 /* Sidebar */
 .sidebar{
-        float:left;
-        *position: fixed;
-        padding:10px;
-        line-height:30px;
-        width:20%;
-        height:100%;
-        background-color: #373867;
+    float:left;
+    position:fixed;
+    padding:10px;
+    line-height:32px;
+    width:20%;
+    height:100%;
+    top:0%;
+    background-color: #AFAFC2;       
 }
-a:visited {
-        color:#575897;
+.btn-menu{
+    color:#373867;
+    position:fixed;
+    left:19%;  
 }
-/* HomePage */
+.p-sidebar{
+    font-weight:bold;
+    color:#373867;
+}
+/* Homepage */
+.container-homepage{
+    float:left;
+    width:1000px;
+    height: 600px;
+}
 h1{
-        margin:auto;
-        width:50%;
-        padding:40px;
-        font-family: serif;
-        font-size: 60px;
-        color:#373867;
+    margin:auto;
+    width:100%;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
 }
-.sub-title{
-        margin:auto;
-        width:50%;
-        padding:20px;
-        font-family: serif;
-        font-size: 20px;
-        color:#373867;
+.subtitle-homepage{
+    margin:auto;
+    width:100%;
+    padding:20px;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;   
 }
 .text-homepage{
-        margin:auto;
-        width:50%;
-        padding:10px;
-        font-family: serif;
-        font-size: 20px;
-        color:#373867;
+    margin-top:auto;
+    width:50%;
+    padding:10px;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;
 }
-.imagen-home{
-        float:right;
+.image-homepage{
+    float:right;
+    height: 400px;
+    width:400px;
 }
-/* History section*/
-.history{
-        margin:auto;
-        width:50%;
-        padding:20px;
-        font-family: serif;
-        font-size: 60px;
-        color:#373867;
+.btn-homepage{
+    margin-top: 50px;
+    width: 20%;
+    padding:11px;
+    background-color: white;
 }
-.text-history{
-        display: inline-block;
-        width:43%;
-        font-family: serif;
-        font-size: 20px;
-        color:#373867;
+/* History-section */
+.container-history{
+    float:left;
+    width:1000px;
+    height: 600px;
 }
-.imagen-history{
-        float:right;
+.title-history{
+    margin:left;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
 }
-.text-history2{
-        margin:auto;
-        width:50%;
-        padding:10px;
-        font-family: serif;
-        font-size: 20px;
-        color:#373867;
+.image-history-left{
+    float:left;
 }
-/* Funcionalities*/
-.funcionalities{
-        margin:auto;
-        width:50%;
-        font-family: serif;
-        font-size: 60px;
-        color:#373867;
+.text-one-history{
+    display: inline-block;
+    padding-left:2%;
+    width:45%;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;
 }
-.block{
-        margin: auto;
-        width:36%;
+.image-history-right{
+    float:right; 
 }
-/* Reasons*/
-.reasons{
-        margin:auto;
-        width:50%;
-        font-family: serif;
-        font-size: 60px;
-        color:#373867;
+.text-two-history{
+    display: inline-block;
+    width:50%;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;
 }
-.block-one{
-        margin: auto;
-        width:36%;
+/* Funcionalities */
+.container-funcionalities{
+    display: inline-block;
+    width:1000px;
+    height:600px;
 }
-.my-form{
-        padding: 20px;
+.title-funcionalities{
+    margin:left;
+    padding: 2%;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
 }
-.my-form .form-group{
-        padding-bottom: 15px;
+/* Funcionalities - Recorf of worked hours*/
+.subcontainer-one{
+    display:inline-block;
+    font-size: 14px;
+    width:40%;
+    color:#373867;
 }
-.my-form label{
-        display: block;
+.subtitle-one{
+    margin-left: 2%;
+    font-size: 15px;
+    color:#373867;
 }
-.my-form input[type="text"], my-form textarea{
-        padding: 8px;
-        width: 100%;
+.image-one{
+    float:left;
+    width: 40px;
+    height: 40px;
 }
-.my-form input[type="message"], my-form textarea{
-        padding: 8px;
-        width: 100%;
-}   
-        
-
-
-
-
-
+.text-one{
+    float:left;
+    width: 300px;
+    height: 100px;
+    margin:10px;
+    font-size: 15px;
+    color:#373867
+}
+/* Funcionalities - Reports*/
+.subtitle-two{
+    display: left;
+    margin-left: 2%;
+    font-size: 15px;
+    color:#373867;
+}
+.image-two{
+    float:left;
+    margin-left: 38%;
+    width: 40px;
+    height: 40px;
+}
+.text-two{
+    margin-left: 43.9%;
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    color:#373867
+}
+/* Funcionalities - Resources-management*/
+.subcontainer-three{
+    display:inline-block;
+    font-size: 14px;
+    width:40%;
+    color:#373867;
+}
+.subtitle-three{
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 15px;
+    color:#373867;
+}
+.image-three{
+    float:left;
+    width: 40px;
+    height: 40px;
+}
+.text-three{
+    float:left;
+    width: 300px;
+    height: 100px;
+    margin:10px;
+    font-size: 15px;
+    color:#373867
+}
+/* Funcionalities - Multiple-roles*/
+.subtitle-four{
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 15px;
+    color:#373867;
+}
+.text-four{
+    margin-left: 43.9%;
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    color:#373867
+}
+.image-four{
+    float:left;
+    margin-left: 38%;
+    width: 40px;
+    height: 40px;
+}
