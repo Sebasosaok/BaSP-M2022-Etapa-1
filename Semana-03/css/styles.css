@@ -18,6 +18,7 @@ header{
     border-bottom: solid;
     border-width: 2px;
     border-color: #373867;
+    margin:20px ;
 }
 /* Sidebar */
 .sidebar{
@@ -178,4 +179,68 @@ footer{
     border-top: solid;
     border-width: 2px;
     border-color: #373867;
+}
+/* More Information */
+
+.List-one{
+    display:inline-block;
+    width: 300px;
+    height:120px;
+    font-family: serif;
+    font-size: 14px;
+    line-height:22px;
+    color:#373867;
+}
+.List-two{
+    text-align: center;
+    display:inline-block;
+    width: 300px;
+    height:120px;
+    font-family: serif;
+    font-size: 14px;
+    line-height:22px;
+    color:#373867;
+}
+.List-three{
+    margin-left: 90px;
+    display:inline-block;
+    width: 300px;
+    height:120px;
+    text-align: center;
+    font-family: serif;
+    font-size: 14px;
+    line-height:22px;
+    color:#373867;
+}
+.Title-list{
+    margin: 10px;
+    font-size: 20px;
+}
+.buttom{
+    text-align: center;
+    margin: 20px;
+}
+/* Formulario */
+.Formulario{
+    display: inline-block;
+    width: 1000px;
+    height: 600px;
+    background-color: blue;
+    padding: 20px;
+}
+.Title-Formulario{
+    margin-left: 190px;
+    text-decoration: underline red;
+    padding: 2%;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
+}
+.Formulario input[type="text"], Formulario textarea{
+    width: 40%;
+    height: 20%;
+    padding: 2px;
+}
+.btn-forms{
+    background-color: rgb(206, 89, 89)
 }
