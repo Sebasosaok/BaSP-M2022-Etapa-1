@@ -1,0 +1,35 @@
+header{
+    display:flex;
+    box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+    width: 110%;
+}
+
+.social-media-icon{
+    text-align: center;
+    margin: 20px;
+}
+
+.Title-mobile{
+    margin:auto;
+    text-decoration: underline #373867;
+    border-width: 2px;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
+}
+
+@media screen and (min-width: 821px){
+    .Title-mobile{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 821px){
+    .social-media-icon{
+        display:none;
+    }
+}
+
+
