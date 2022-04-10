@@ -1,0 +1,238 @@
+/* Homepage */
+
+.container-homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 30px;
+}
+
+.image-homepage{
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    margin:10px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.subtitle-homepage{
+    display: flex;
+    margin:auto;
+    padding:16px;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;   
+}
+
+.text-homepage{
+    color:#373867;
+}
+
+.btn-homepage{
+    margin-top: 15px;
+    background-color: #AACE9B;
+    width: 150px;
+    height: 50px;
+}
+
+/* History */
+.container-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 30px;
+}
+
+.image-history-left{
+    width: 100%;
+}
+
+.image-history-right{
+    width: 100%;
+    padding: 20px;
+}
+
+.title-history{
+    display: flex;
+    margin:10px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.text-one-history{
+    display: flex;
+    font-family: serif;
+    color:#373867; 
+}
+
+.text-two-history{
+    display: flex;
+    font-family: serif;
+    color:#373867;
+}
+
+.btn-history{
+    margin-top: 15px;
+    background-color: #F11A41;
+    border-radius: 4px 4px 4px 4px;
+    width: 150px;
+    height: 50px;
+}
+
+@media screen and (min-width: 768px){
+    .btn-history{
+        display:none;
+    }
+}
+
+/* Funcionalities */
+.container-funcionalities{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: red;
+}
+
+.subcontainer-one{
+    background-color: yellow;
+}
+
+.title-funcionalities{ 
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.image-one{
+    float:left;
+    width: 39%;
+}
+
+.right{
+    float:left;
+}
+
+.title-text-one{
+    
+    font-family: serif;
+    color:#373867;
+}
+
+/* Reasons */
+.container-reasons{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: blue;
+}
+
+.title-reasons{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+/* Formulario */
+.my-form{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.Title-Formulario{
+    margin:20px;
+    text-align: center;
+    text-decoration: underline #F11A41;
+    border-width: 2px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+.btn-forms{
+    margin:10px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F11A41;
+    color:white;
+}
+
+.two{
+    width: 100px;
+}
+
+.my-form input{
+    display: flex;
+    width: 100%;
+}
+
+.my-form select{
+    display: flex;
+    width: 102%;
+}
+
+.my-form textarea{
+    display: flex;
+    margin: 1px;
+    width: 102%;
+    height: 340px;
+}
+
+.Button{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* More-Information */
+    /* Information-Products */
+.List-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.List-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.List-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.Title-list{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 19px;
+    color:#373867;
+}
+    /* Button */
+
+@media screen and (max-width: 768px){
+    .buttom{
+        display:none;
+    }
+}

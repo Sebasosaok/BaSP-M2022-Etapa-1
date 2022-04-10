@@ -1,0 +1,17 @@
+.social-media-icon-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    margin:9px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #EDEDED;
+}
