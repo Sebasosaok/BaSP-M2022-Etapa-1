@@ -1,18 +1,18 @@
 header{
     display:flex;
-    align-items: center;
     position: fixed;
-    width: 100%;
+    align-items: center;
     box-sizing:border-box;
+    width: 100%;
     padding: 10px;
+    top:0px;
     background-color: #EDEDED;
 }
 
 .social-media-icon{
     text-align: right;
     margin: 20px;
-    background-color: red;
-    width: 80%;
+    width: 100%;
 }
 
 .Title-mobile{
@@ -24,16 +24,21 @@ header{
     color:#373867;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 821px){
     .Title-mobile{
         display:none;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
     .social-media-icon{
         display:none;
     }
 }
 
+@media screen and (min-width: 768px){
+    header{
+        position: inherit;
+    }
+}
 
