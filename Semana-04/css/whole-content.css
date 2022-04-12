@@ -60,32 +60,38 @@
 /* Adaptación-History */
 @media screen and (min-width: 768px){
     .image-history-left{
-        margin-right: 60%;
         background-color: red;
         width: 400px;
     }
     .image-history-right{
-        margin-left: 60%;
         width: 400px
     }
     .title-history{
-        margin:10px;
+        margin:60px;
         font-family: serif;
         font-weight: bold;
         font-size: 60px;
         color:#373867;
     }
+    .subcontainer-history{
+        display: flex;
+
+    }
+    .subcontainer-history-two{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
     .container-history{
         display: flex;
-        background-color: red;
+        flex-direction: column;
     }
     .text-one-history{
-        width: 20%;
-        background-color: blue;
+        align-items: center;
+        padding: 12px;
     }
     .text-two-history{
-        width: 20%;
-        background-color: green;
+        align-items: center;
     }
 }
 
@@ -153,3 +159,20 @@
         background-color: yellow;
     }
 }
+
+/* Adaptación-Formulario */
+@media screen and (min-width: 768px){
+    .Title-Formulario{
+        font-size: 60px;
+    }
+    .container-form{
+        display: flex;
+        width: 92%;
+    }
+    .email{
+        margin-left: 36%;
+    }
+
+}
+
+
