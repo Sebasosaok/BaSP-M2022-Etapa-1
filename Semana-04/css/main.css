@@ -56,13 +56,25 @@ h1{
     padding: 20px;
 }
 
-.title-history{
+.title-history-mobile{
     display: flex;
     margin:10px;
     font-family: serif;
     font-weight: bold;
     font-size: 24px;
     color:#373867;
+}
+
+@media screen and (min-width: 768px){
+    .title-history-mobile{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .title-history{
+        display:none;
+    }
 }
 
 .text-one-history{
@@ -225,7 +237,7 @@ h1{
     font-size: 19px;
     color:#373867;
 }
-    /* Button */
+    /* Button-End */
 
 @media screen and (max-width: 768px){
     .buttom{
