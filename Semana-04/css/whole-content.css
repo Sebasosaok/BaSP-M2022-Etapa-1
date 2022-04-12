@@ -60,7 +60,6 @@
 /* Adaptación-History */
 @media screen and (min-width: 768px){
     .image-history-left{
-        background-color: red;
         width: 400px;
     }
     .image-history-right{
@@ -140,26 +139,42 @@
     .container-funcionalities{
         display:flex;
         width: 1000px;
-        background-color: blue;
-    }
-    .subcontainer-one{
-        display: flex;
-        background-color: red;
-        width: 40%;
+        height: 600px;
     }
     .image-one{
         width: 30%;
-        height: 30%;
+        height: 60%;
     }
-    .title-text-one{
-        width: 300%;
-        background-color: green;
+    .record-report{
+        display: flex;
+        height: 40%;
+        padding: 2%;
     }
-    .right{
-        background-color: yellow;
+    .resource-multiple{
+        display: flex;
+        height: 40%;
     }
 }
-
+/* Adaptación-Reasons */
+@media screen and (min-width: 768px){
+    .title-reasons{
+        font-size: 60px;
+    }
+    .container-reasons{
+        display:flex;
+        width: 1000px;
+        height: 600px;
+    }
+    .productivity-decision{
+        display: flex;
+        height: 40%;
+        padding: 2%;
+    }
+    .work-leadership{
+        display: flex;
+        height: 40%;
+    }
+}
 /* Adaptación-Formulario */
 @media screen and (min-width: 768px){
     .Title-Formulario{
