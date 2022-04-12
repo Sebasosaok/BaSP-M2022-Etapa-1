@@ -108,12 +108,14 @@
 
 /* Adaptación-Button-End */
 @media screen and (min-width: 768px){
-    .buttom{
+    .buttom-page{
         display: flex;
         justify-content: center;
         margin:20px;
     }
+
 }
+
 
 /* Adaptación-footer */
 @media screen and (min-width: 768px){

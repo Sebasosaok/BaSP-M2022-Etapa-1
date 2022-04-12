@@ -240,7 +240,7 @@ h1{
     /* Button-End */
 
 @media screen and (max-width: 768px){
-    .buttom{
+    .buttom-page{
         display:none;
     }
 }
