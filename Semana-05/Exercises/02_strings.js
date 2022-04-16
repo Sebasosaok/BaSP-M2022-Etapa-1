@@ -53,7 +53,7 @@ countryAfrica = 'bANGLADESH tAYIKISTAN';
 
 solution = countryAfrica.substring(0,1).toUpperCase(0,1)+
            countryAfrica.substring(1,10).toLowerCase(1,10)+
-           countryAfrica.substring(10,11).lastIndexOf(" ")+
+           countryAfrica.indexOf(" ")+
            countryAfrica.substring(11,12) .toUpperCase(11,12)+
            countryAfrica.substring(12,21).toLowerCase(12,21);
            
