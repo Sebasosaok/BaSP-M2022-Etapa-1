@@ -1,6 +1,8 @@
-.social-media-icon-footer{
-    display: flex;
-    justify-content: center;
+footer{
+    text-align: center;
+    background-color: #EDEDED;
+    margin:30px;
+    padding: 20px;
 }
 
 .copyright{
@@ -9,9 +11,3 @@
     margin:9px;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #EDEDED;
-}

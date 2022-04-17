@@ -4,10 +4,10 @@
     float:left;
     flex-direction: column;
     box-sizing:border-box;
-    background-color: #AFAFC2;
     width: 20%;
     height: 100%;
     top:0%;
+    background-color: #AFAFC2;
     line-height:22px;
 }
 

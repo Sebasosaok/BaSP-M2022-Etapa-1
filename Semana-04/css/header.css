@@ -9,22 +9,25 @@ header{
     background-color: #EDEDED;
 }
 
-.social-media-icon{
-    text-align: right;
-    margin: 20px;
-    width: 100%;
-}
-
 .Title-mobile{
     margin:auto;
-    text-decoration: underline #373867;
     border-width: 2px;
+    text-decoration: underline #373867;
     font-family: serif;
     font-size: 60px;
     color:#373867;
 }
 
+.social-media-icon{
+    width: 100%;
+    margin: 20px;
+    text-align: right;
+}
+
 @media screen and (min-width: 768px){
+    header{
+        position: inherit;
+    }
     .Title-mobile{
         display:none;
     }
@@ -35,10 +38,3 @@ header{
         display:none;
     }
 }
-
-@media screen and (min-width: 768px){
-    header{
-        position: inherit;
-    }
-}
-
