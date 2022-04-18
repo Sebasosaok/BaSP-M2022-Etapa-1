@@ -85,21 +85,6 @@ h1{
     background-color: #F11A41;
 }
 
-@media screen and (min-width: 768px){
-    .title-history-mobile{
-        display:none;
-    }
-    .btn-history{
-        display:none;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .title-history{
-        display:none;
-    }
-}
-
 /************************************ Funcionalities *****************************************/
 .container-funcionalities{
     display: flex;
@@ -233,11 +218,4 @@ h1{
     font-weight: bold;
     font-size: 19px;
     color:#373867;
-}
-    /******************* Button-End *******************************/
-
-@media screen and (max-width: 768px){
-    .buttom-page{
-        display:none;
-    }
 }

@@ -24,17 +24,28 @@ header{
     text-align: right;
 }
 
-@media screen and (min-width: 768px){
-    header{
-        position: inherit;
-    }
-    .Title-mobile{
+/*************************** Para que desaparezcan los Iconos en Versión Mobile ******************/
+@media screen and (max-width: 768px){
+    .social-media-icon{
         display:none;
     }
 }
 
-@media screen and (max-width: 768px){
-    .social-media-icon{
+@media screen and (min-width: 768px){
+    /*************************** Adaptación-Header to Desktop ************************************/
+    header{
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #373867;
+        background-color: white;
+    }
+
+    /************** Header-para que se mantegna arriba y luego desaparezca en Desktop************/
+    header{
+        position: inherit;
+    }
+    
+    .Title-mobile{
         display:none;
     }
 }

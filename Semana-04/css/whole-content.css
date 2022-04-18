@@ -16,6 +16,17 @@
     .body-container{
         margin-top:100px;
     }
+/************************************** History **********************************************/
+/************************* Para que desaparezca en Mobile *****************************************/
+    .title-history{
+        display:none;
+    }
+
+/******************* Button-End *******************************/
+    /******************* Para que desaparezca en Mobile *******************************/
+    .buttom-page{
+        display:none;
+    }
 }
 
 /*************************** Adaptación a Desktop ******************************************/
@@ -23,20 +34,8 @@
     .body-container{
         margin-left:21%;
     }
-}
-
-/*************************** Adaptación-Header *********************************************/
-@media screen and (min-width: 768px){
-    header{
-        border-bottom: solid;
-        border-width: 2px;
-        border-color: #373867;
-        background-color: white;
-    }
-}
 
 /**************************** Adaptación-Homepage ******************************************/
-@media screen and (min-width: 768px){
     .container-homepage{
         flex-direction: row-reverse;
         margin-right:12%;
@@ -59,10 +58,8 @@
     h1{
         font-size: 30px;
     }
-}
 
 /******************************* Adaptación-History ******************************************/
-@media screen and (min-width: 768px){
     .image-history-left{
         width: 400px;
     }
@@ -103,10 +100,8 @@
     .text-two-history{
         align-items: center;
     }
-}
 
 /********************************** Adaptación-More-Information **********************************/
-@media screen and (min-width: 768px){
     .Title-list{
         font-size: 160%;
     }
@@ -116,39 +111,42 @@
         justify-content: space-between;
         padding: 10px;
     }
-}
 
 /********************************** Adaptación-Button-End *****************************************/
-@media screen and (min-width: 768px){
     .buttom-page{
         display: flex;
         justify-content: center;
         margin:20px;
     }
 
-}
-
-
-/********************************** Adaptación-footer *********************************************/
-@media screen and (min-width: 768px){
-    footer{
-        background-color: white;
-        border-top: solid;
-        border-width: 2px;
+    .buttom-border{
+        margin:6px;
+        width: 6%;
+        border-style: solid;
+        border-radius: 4px 4px 4px 4px;
         border-color: #373867;
+        background-color: #FFF;
     }
 
-    .copyright{
-        margin-left: 20%;
+    .buttom-blue{ 
+        margin:6px;
+        width: 4%;
+        border-style: solid;
+        border-radius: 4px 4px 4px 4px;
+        background-color:#373867 ;
+        color:#FFF;
     }
 
-    .social-media-icon-footer{
-        margin-left: 20%;
+    .buttom-other{
+        margin:6px;
+        border-style: solid;
+        border-radius: 4px 4px 4px 4px;
+        border-color: #FFF;
+        color:#373867;
+        background-color: #FFF;
     }
-}
-
+    
 /********************************** Adaptación-Funionalities ***************************************/
-@media screen and (min-width: 768px){
     .title-funcionalities{
         font-size: 60px;
     }
@@ -174,10 +172,8 @@
         display: flex;
         height: 40%;
     }
-}
 
 /****************************************** Adaptación-Reasons ***********************************/
-@media screen and (min-width: 768px){
     .title-reasons{
         font-size: 60px;
     }
@@ -198,10 +194,8 @@
         display: flex;
         height: 40%;
     }
-}
 
 /************************************** Adaptación-Formulario **************************************/
-@media screen and (min-width: 768px){
     .Title-Formulario{
         font-size: 60px;
     }
@@ -214,6 +208,15 @@
         margin-left: 36%;
     }
 
+/************************************** History **********************************************/
+/************************* Para que desaparezca en Desktop *****************************************/
+    .title-history-mobile{
+        display:none;
+    }
+    
+    .btn-history{
+        display:none;
+    }
 }
 
 
