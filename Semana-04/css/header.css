@@ -25,13 +25,13 @@ header{
 }
 
 /*************************** Para que desaparezcan los Iconos en Versión Mobile ******************/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .social-media-icon{
         display:none;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     /*************************** Adaptación-Header to Desktop ************************************/
     header{
         border-bottom: solid;

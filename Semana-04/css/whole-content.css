@@ -1,5 +1,5 @@
 /************************* Correction to Mobile *******************************************/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .container-homepage{
         display:flex;
         flex-wrap:wrap;
@@ -10,11 +10,12 @@
     }
 
     .image-homepage{
-        width: 90%;
+        width: 80%;
     }
 
     .body-container{
         margin-top:100px;
+        width: 90%;
     }
 /************************************** History **********************************************/
 /************************* Para que desaparezca en Mobile *****************************************/
@@ -30,7 +31,7 @@
 }
 
 /*************************** Adaptación a Desktop ******************************************/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     .body-container{
         margin-left:21%;
     }
@@ -213,10 +214,10 @@
     .title-history-mobile{
         display:none;
     }
-    
+}
+@media screen and (min-width: 768px){
     .btn-history{
         display:none;
     }
 }
-
 

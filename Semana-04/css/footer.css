@@ -11,7 +11,7 @@ footer{
 }
 
 /*************************** Adaptación a Desktop ******************************************/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     footer{
         background-color: white;
         border-top: solid;
