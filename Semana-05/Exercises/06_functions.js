@@ -63,9 +63,11 @@ function suma(number1,number2){
 }
 function pruebaa(number1,number2) {
     if (validate(number1) && validate(number2)){
-        return number1+number2;
+        return console.log(number1+number2);
     }else{
         alert("Error debe ingresar numeros enteros")
-        return Math.round(number1+number2)
+        return console.log(Math.round(number1+number2))
     };
 }
+
+suma(20,1000)
