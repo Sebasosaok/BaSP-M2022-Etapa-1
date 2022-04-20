@@ -10,21 +10,13 @@ footer{
     margin:9px;
 }
 
-/*************************** Adaptación a Desktop ******************************************/
-@media screen and (min-width: 1024px){
-    footer{
-        background-color: white;
-        border-top: solid;
-        border-width: 2px;
-        border-color: #373867;
+/************Version-Desktop******************/
+    @media screen and (min-width: 1024px){
+        footer{
+            background-color: white;
+            border-top: solid;
+            border-width: 2px;
+            border-color: #373867;
+        }
     }
 
-    .copyright{
-        margin-left: 20%;
-    }
-
-    .social-media-icon-footer{
-        margin-left: 20%;
-        padding: 2px;
-    }
-}

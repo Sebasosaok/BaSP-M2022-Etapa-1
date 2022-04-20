@@ -19,33 +19,30 @@ header{
 }
 
 .social-media-icon{
-    width: 100%;
-    margin: 20px;
-    text-align: right;
+    display:none;
 }
 
-/*************************** Para que desaparezcan los Iconos en Versión Mobile ******************/
-@media screen and (max-width: 1024px){
-    .social-media-icon{
-        display:none;
-    }
-}
-
+/************Version-Desktop******************/
 @media screen and (min-width: 1024px){
-    /*************************** Adaptación-Header to Desktop ************************************/
+    /************Version-Desktop-Modifica estilo*****************/
     header{
+        position: inherit;
         border-bottom: solid;
         border-width: 2px;
         border-color: #373867;
         background-color: white;
     }
 
-    /************** Header-para que se mantegna arriba y luego desaparezca en Desktop************/
-    header{
-        position: inherit;
+    /************Version-Desktop-Desaparece Titulo******************/
+    .social-media-icon{
+        display:inherit;
+        text-align: right;
+        margin: 20px;
+        width: 100%;
     }
     
     .Title-mobile{
         display:none;
     }
+    
 }
