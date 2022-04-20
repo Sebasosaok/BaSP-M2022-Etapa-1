@@ -35,8 +35,8 @@ header{
 
     /************Version-Desktop-Desaparece Titulo******************/
     .social-media-icon{
-        display:inherit;
-        text-align: right;
+        display:flex;
+        justify-content: right;
         margin: 20px;
         width: 100%;
     }
@@ -44,5 +44,4 @@ header{
     .Title-mobile{
         display:none;
     }
-    
 }
