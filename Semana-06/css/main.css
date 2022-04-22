@@ -1,0 +1,444 @@
+/***************************************** Body-Container *****************************************/
+
+.body-container{
+    margin-top:100px;
+}
+
+/***************************************** Homepage *****************************************/
+
+.container-homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.homepage{
+    width: 90%;
+}
+
+.image-homepage{
+    width: 90%;
+}
+
+h1{
+    display: flex;
+    margin:10px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.subtitle-homepage{
+    display: flex;
+    margin:auto;
+    padding:16px;
+    font-family: serif;
+    font-size: 20px;
+    color:#373867;   
+}
+
+.text-homepage{
+    color:#373867;
+}
+
+.btn-homepage{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #AACE9B;
+}
+
+/************************************** History **********************************************/
+.container-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 30px;
+}
+
+.image-history-left{
+    width: 90%;
+}
+
+.image-history-right{
+    width: 90%;
+    padding: 20px;
+}
+
+.title-history{
+        display:none;
+}
+
+
+.title-history-mobile{
+    display: flex;
+    margin:10px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.text-one-history{
+    display: flex;
+    font-family: serif;
+    color:#373867; 
+}
+
+.text-two-history{
+    display: flex;
+    font-family: serif;
+    color:#373867;
+}
+
+.btn-history{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F11A41;
+}
+
+/************************************ Funcionalities *****************************************/
+.container-funcionalities{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.title-funcionalities{ 
+    margin:20px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.image-one{
+    float:left;
+    width: 34%;
+    margin-right: 20px;
+}
+
+.right{
+    float:left;
+}
+
+.title-text-one{
+    font-family: serif;
+    color:#373867;
+}
+
+/****************************************** Reasons *******************************************/
+.container-reasons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title-reasons{
+    margin:20px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+/****************************************** Formulario ******************************************/
+.my-form{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.Title-Formulario{
+    margin:20px;
+    border-width: 2px;
+    text-align: center;
+    text-decoration: underline #F11A41;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#373867;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+.btn-forms{
+    margin:10px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F11A41;
+    color:white;
+}
+
+.two{
+    width: 100px;
+}
+
+.my-form input{
+    display: flex;
+    width: 100%;
+}
+
+.my-form select{
+    display: flex;
+    width: 102%;
+    margin:2px;
+}
+
+.my-form textarea{
+    display: flex;
+    width: 102%;
+    height: 340px;
+    margin: 3px;
+}
+
+.Button{
+    display: flex;
+    justify-content: space-between;
+}
+
+/****************************************** More-Information **************************************/
+    /***************** Information-Products *******************/
+.List-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.List-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.List-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:30px;
+}
+
+.Title-list{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 19px;
+    color:#373867;
+}
+
+.buttom-page{
+    display:none;
+}
+
+
+/***********************Adaptaciones-Tablet-Desktop**************************************/
+
+
+/************Version-Tablet******************/
+@media screen and (min-width: 768px){
+    /************Version-Tablet-Body-Container******************/
+        .body-container{
+            margin-left: 21%;
+        }
+    /************Version-Tablet-Desaparece Boton-History******************/
+        .btn-history{
+            display:none;
+        }
+    /************Version-Tablet-Ajuste Imagen-Funcionalities-Reasons******************/
+        .image-one{
+            width: 20%;
+        }
+    
+    }
+    
+    /************Version-Desktop******************/
+    @media screen and (min-width: 1024px){
+    /************Version-Desktop-Homepage*****************/
+        .container-homepage{
+            flex-direction: row-reverse;
+            margin-right:12%;
+            padding: 2%;
+        }
+    
+        .image-homepage{
+            width:400px;
+            height: 400px;
+        }
+    
+        .homepage{
+            margin:6%;
+            width:50%;
+        }
+    /************Version-Desktop-Body-Container*****************/
+        .body-container{
+            margin-top:20px;
+        }
+    /************Version-Desktop-Homepage*****************/
+        h1{
+            font-size: 30px;
+        }
+    /************Version-Desktop-History*****************/
+        .title-history-mobile{
+            display: none;
+        }
+    /************Version-Desktop-History*****************/
+        .image-history-left{
+            width: 400px;
+        }
+    /************Version-Desktop-History*****************/
+        .image-history-right{
+            width: 400px
+        }
+    /************Version-Desktop-History*****************/
+        .title-history{
+            display:inherit;
+            margin:60px;
+            font-family: serif;
+            font-weight: bold;
+            font-size: 60px;
+            color:#373867;
+        }
+    /************Version-Desktop-History*****************/
+        .subcontainer-history{
+            display: flex;
+    
+        }
+    /************Version-Desktop-History*****************/
+        .subcontainer-history-two{
+            display: flex;
+            flex-direction: row-reverse;
+    
+        }
+    /************Version-Desktop-History*****************/
+        .container-history{
+            display: flex;
+            flex-direction: column;
+        }
+    /************Version-Desktop-History*****************/    
+        .text-one-history{
+            align-items: center;
+            padding: 12px;
+        }
+    /************Version-Desktop-History*****************/
+        .text-two-history{
+            align-items: center;
+        }
+    /************Version-Desktop-Funcionalities*****************/
+        .title-funcionalities{
+            font-size: 60px;
+        }
+    
+        .container-funcionalities{
+            display:flex;
+            width: 1000px;
+            height: 600px;
+        }
+     
+        .image-one{
+            width: 30%;
+            height: 60%;
+        }
+    
+        .record-report{
+            display: flex;
+            height: 40%;
+            padding: 2%;
+        }
+    
+        .resource-multiple{
+            display: flex;
+            height: 40%;
+            padding: 2%;
+        }
+    /************Version-Desktop-Reasons*****************/
+        .title-reasons{
+            font-size: 60px;
+        }
+    
+        .container-reasons{
+            display:flex;
+            width: 1000px;
+            height: 600px;
+        }
+    
+        .productivity-decision{
+            display: flex;
+            height: 40%;
+            padding: 2%;
+        }
+    
+        .work-leadership{
+            display: flex;
+            height: 40%;
+            padding: 2%;
+            
+        }
+    /************Version-Desktop-Formulario*****************/
+        .Title-Formulario{
+            font-size: 60px;
+            margin:4%;
+        }
+    
+        .container-form{
+            display: flex;
+            width: 92%;
+        }
+    
+        .email{
+            margin-left: 36%;
+        }
+    
+        .Title-list{
+            font-size: 160%;
+        }
+    
+        .More{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    
+        .buttom-page{
+            display: flex;
+            justify-content: center;
+            margin:20px;
+        }
+    
+        .buttom-border{
+            margin:6px;
+            width: 6%;
+            border-style: solid;
+            border-radius: 4px 4px 4px 4px;
+            border-color: #373867;
+            background-color: #FFF;
+        }
+    
+        .buttom-blue{ 
+            margin:6px;
+            width: 4%;
+            border-style: solid;
+            border-radius: 4px 4px 4px 4px;
+            background-color:#373867 ;
+            color:#FFF;
+        }
+    
+        .buttom-other{
+            margin:6px;
+            border-style: solid;
+            border-radius: 4px 4px 4px 4px;
+            border-color: #FFF;
+            color:#373867;
+            background-color: #FFF;
+        }
+    }
+    

@@ -1,0 +1,47 @@
+header{
+    display:flex;
+    position: fixed;
+    align-items: center;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 10px;
+    top:0px;
+    background-color: #EDEDED;
+}
+
+.Title-mobile{
+    margin:auto;
+    border-width: 2px;
+    text-decoration: underline #373867;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
+}
+
+.social-media-icon{
+    display:none;
+}
+
+/************Version-Desktop******************/
+@media screen and (min-width: 1024px){
+    /************Version-Desktop-Modifica estilo*****************/
+    header{
+        position: inherit;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #373867;
+        background-color: white;
+    }
+
+    /************Version-Desktop-Desaparece Titulo******************/
+    .social-media-icon{
+        display:flex;
+        justify-content: right;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .Title-mobile{
+        display:none;
+    }
+}

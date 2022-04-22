@@ -1,0 +1,43 @@
+.sidebar{
+    display:none;
+    position: fixed;
+    float:left;
+    flex-direction: column;
+    box-sizing:border-box;
+    width: 20%;
+    height: 100%;
+    top:0%;
+    background-color: #AFAFC2;
+    line-height:22px;
+}
+
+.btn-menu{
+    text-align: right;
+    color:#373867;
+}
+
+.p-sidebar{
+    margin-left: 14%;
+    font-weight:bold;
+    color:#373867;
+}
+
+.text-sidebar{
+    margin:10px;
+    margin-left: 14%;
+    color:#373867;
+}
+
+.line-sidebar{
+    margin:20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #373867;
+}
+
+@media screen and (min-width: 768px){
+    .sidebar{
+        display:flex;
+        line-height: 26px;
+    }
+}
