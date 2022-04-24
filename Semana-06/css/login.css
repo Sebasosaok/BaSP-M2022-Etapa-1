@@ -1,0 +1,54 @@
+/****************** Body container ******************************/
+.body-container{
+    padding:10%;
+    text-align: center;
+    background-color: #EBEBF0;
+}
+
+/****************** Title ******************************/
+h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#373867;
+}
+
+/****************** Form ******************************/
+
+.my-form input{
+    margin:20px;
+    width: 44%;
+    border-radius: 4px 4px 4px 4px;
+    color:#373867;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+    font-family: serif;
+    font-weight: bold;
+    color:#373867;
+    font-size: 14px;
+    width: 24%;
+}
+
+/****************** Forgot******************************/
+.forgot{
+    margin: 40px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 14px;
+    color:#373867;
+}
+
+/****************** btn-form ******************************/
+.btn-forms{
+    margin:10px;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F11A41;
+    color:white;
+}
