@@ -1,40 +1,79 @@
-/****************** Body container ******************************/
-.body-container{
-    padding:10%;
-    text-align: center;
-    background-color: #EBEBF0;
+/***********************Header***********************/
+header{
+    display:flex;
+    position: fixed;
+    align-items: center;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 10px;
+    top:0px;
+    background-color: #EDEDED;
 }
 
-/****************** Title ******************************/
-h1{
+.Title-mobile{
+    margin:auto;
+    border-width: 2px;
+    text-decoration: underline #373867;
     font-family: serif;
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 60px;
     color:#373867;
 }
 
-/****************** Form ******************************/
+/***********************Sidebar***********************/
+.sidebar{
+    display:none;
+}
+/***********************Formulario********************/
+
+.Formulario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:140px
+}
+
+h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 36px;
+    color:#373867;
+}
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #EBEBF0;
+    box-shadow: 10px 10px 10px  grey;
+}
 
 .my-form input{
     margin:20px;
-    width: 44%;
+
     border-radius: 4px 4px 4px 4px;
     color:#373867;
 }
 
+input{
+    height: 20px;
+}
+
+
+
 .checkbox{
-    display: flex;
-    align-items: center;
-    margin-left: 290px;
     font-family: serif;
     font-weight: bold;
     color:#373867;
-    font-size: 14px;
-    width: 24%;
 }
 
-/****************** Forgot******************************/
+
+
 .forgot{
+    display: flex;
+    flex-direction: column;
     margin: 40px;
     text-align: center;
     font-family: serif;
@@ -43,8 +82,7 @@ h1{
     color:#373867;
 }
 
-/****************** btn-form ******************************/
-.btn-forms{
+.button{
     margin:10px;
     height: 40px;
     width: 140px;
