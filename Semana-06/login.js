@@ -22,7 +22,7 @@ window.onload = function(){
     console.log(message);
 
     function validateEmail (){
-        if (email.value.match(format)){
+        if (!email.value.match(format)){
             message[0].classList.remove('hide');
             message[0].classList.add('error');
             message[0].innerHTML = "ERROR";
@@ -36,7 +36,7 @@ window.onload = function(){
 
 
     email.onblur = function(){
-        email();
+        validateEmail();
     };
 
     email.onfocus = function(){

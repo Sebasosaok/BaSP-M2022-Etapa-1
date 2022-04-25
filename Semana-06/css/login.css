@@ -90,3 +90,19 @@ input{
     background-color: #F11A41;
     color:white;
 }
+
+
+/***********************BORRAR***/
+.correct{
+    display: flex;
+    color: green;
+}
+
+.error{
+    display: flex;
+    color: red;
+}
+
+.hide{
+    display: none;
+}
