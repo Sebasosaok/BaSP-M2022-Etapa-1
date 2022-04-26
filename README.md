@@ -7,5 +7,5 @@ Creation of Landing Page
 # W05:Javascript
 # https://sebasosaok.github.io/BaSP-M2022-Etapa-1/Semana-05/index.html
 # W06:Javascript-Dom
-# https://sebasosaok.github.io/BaSP-M2022-Etapa-1/Semana-06/index.html
+# file:///C:/Users/54341/Desktop/BaSP-M2022-Etapa-1/Semana-06/login.html
 ## Sebastián Sosa

@@ -23,6 +23,48 @@ header{
 .sidebar{
     display:none;
 }
+
+@media screen and (min-width: 768px){
+    .sidebar{
+        display:flex;
+        line-height: 26px;
+    }
+    .sidebar{
+        position: fixed;
+        float:left;
+        flex-direction: column;
+        box-sizing:border-box;
+        width: 20%;
+        height: 100%;
+        top:0%;
+        background-color: #AFAFC2;
+        line-height:17px;
+    }
+    
+    .btn-menu{
+        text-align: right;
+        color:#373867;
+    }
+    
+    .p-sidebar{
+        margin-left: 14%;
+        font-weight:bold;
+        color:#373867;
+    }
+    
+    .text-sidebar{
+        margin:10px;
+        margin-left: 14%;
+        color:#373867;
+    }
+    
+    .line-sidebar{
+        margin:20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #373867;
+    }
+}
 /***********************Formulario********************/
 
 .Formulario{
@@ -52,7 +94,6 @@ h1{
 
 .my-form input{
     margin:20px;
-
     border-radius: 4px 4px 4px 4px;
     color:#373867;
 }
@@ -61,15 +102,11 @@ input{
     height: 20px;
 }
 
-
-
 .checkbox{
     font-family: serif;
     font-weight: bold;
     color:#373867;
 }
-
-
 
 .forgot{
     display: flex;
@@ -91,8 +128,7 @@ input{
     color:white;
 }
 
-
-/***********************BORRAR***/
+/***********************Validaciones*****************/
 .correct{
     display: flex;
     color: green;
@@ -105,4 +141,32 @@ input{
 
 .hide{
     display: none;
+}
+
+/************Version-Desktop******************/
+@media screen and (min-width: 1024px){
+    /************Version-Desktop-Modifica estilo*****************/
+    header{
+        position: inherit;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #373867;
+        background-color: white;
+    }
+
+    /************Version-Desktop-Desaparece Titulo******************/
+    .social-media-icon{
+        display:flex;
+        justify-content: right;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .Title-mobile{
+        display:none;
+    }
+
+    .my-form{
+        margin-left: 190px;
+    }
 }

@@ -5,63 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="css/employee-signup.css">
+    <script src="employee-signup.js"></script>
+    <link rel="stylesheet" href="employee-signup.css">
 </head>
 <body>
-    <div class="body-container">
-        <!--------------------Title-------------------------->
-        <h1>Register</h1>
-        <!--------------------Form (Register)--------------------->
-        <Form class="my-form">
-            <div>
-                <input type="text" name="Firts-name"
-                placeholder="Enter First-name">
+    <!--Header-->
+        <header>
+            <a href class="btn-menu-mobile"><i class="fa-solid fa-bars"></i></a>
+            <p class="Title-mobile">Trackgenix
+            </p>
+            <div class="social-media-icon">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
             </div>
-            <div>
-                <input type="text" name="Last-name"
+        </header>
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <a href class="btn-menu"><i class="fa-solid fa-bars"></i></a>
+            <p class="p-sidebar"><strong>Menu</strong></p>
+            <div class="text-sidebar">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="employee-signup.html"><li>Sing Up</li></a>
+                    <a href="login.html"><li>Login</li></a>
+                    <a href=""><li>Contact</li></a>
+                </ul>
+            </div>
+            <div class="line-sidebar"></div>
+            <p class="p-sidebar"><strong>Get in touch</strong></p>
+            <div class="text-sidebar">
+                 <ul>
+                    <a href=""><li>Worked Hours</li></a>
+                    <a href=""><li>Reports</li></a>
+                    <a href=""><li>Management</li></a>
+                    <a href=""><li>Roles</li></a>
+                </ul>
+            </div>
+            <div class="line-sidebar"></div>
+            <p class="p-sidebar"><strong>Trackgenix</strong></p>
+            <div class="text-sidebar">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        illo nemo voluptate. Id totam, eum asperiores ratione ducimus
+                        fugiat nihil vel voluptas dolores laudantium fugit, saepe non.
+                </p>
+            </div>
+        </aside>
+    <div class="container">
+        <!--------------------Title-------------------------->
+        <section class="Formulario-employee">
+        <h1>Sign Up</h1>
+        <!--------------------Form (Register)--------------------->
+        <Form>
+            <div class="container-one">
+                <input type="text" id="Firts-name"
+                placeholder="Enter First-name">
+                <input type="text" id="Last-name"
                 placeholder="Enter Last-name">
             </div>
-            <div>
-                <input type="text" name="DNI"
+            <div class="container-two">
+                <input type="text" id="DNI"
                 placeholder="Enter DNI">
-            </div>
-            <div>
-                <input type="text" name="Fecha de Nacimiento"
+                <input type="text" id="Fecha de Nacimiento"
                 placeholder="Enter Fecha de Nacimiento">
             </div>
-            <div>
-                <input type="text" name="Teléfono"
+            <div class="container-three">
+                <input type="text" id="Teléfono"
                 placeholder="Enter Teléfono">
-            </div>
-            <div>
-                <input type="text" name="Dirección"
+                <input type="text" id="Dirección"
                 placeholder="Enter Dirección">
             </div>
-            <div>
-                <input type="text" name="Localidad"
+            <div class="container-four">
+                <input type="text" id="Localidad"
                 placeholder="Enter Localdiad">
-            </div>
-            <div>
-                <input type="text" name="Código Postal"
+                <input type="text" id="Código Postal"
                 placeholder="Código Postal">
             </div>
-            <div>
-                <input type="text" name="Email"
+            <div class="container-five">
+                <input type="text" id="Email"
                 placeholder="Enter email">
-            </div>
-            <div>
-                <input type="text" password="Password"
+                <input type="text" id="Password"
                 placeholder="Enter password">
             </div>
-            <div>
-                <input type="text" password="Repeat Password"
+            <div class="container-six">
+                <input type="text" id="Repeat Password"
+                placeholder="Enter Repeat password">
+                <input type="text" id="Repeat Password"
                 placeholder="Enter Repeat password">
             </div>
             <!--------------------Buttom--------------------------->
             <div>
-                <button class="btn-forms">Continue</button>
+                <button class="button-forms">Continue</button>
             </div>
         </Form>
+        </section>
     </div>
 </body>
 </html>

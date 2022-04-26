@@ -1,0 +1,187 @@
+/***********************Header***********************/
+header{
+    display:flex;
+    position: fixed;
+    align-items: center;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 10px;
+    top:0px;
+    background-color: #EDEDED;
+}
+
+.Title-mobile{
+    margin:auto;
+    border-width: 2px;
+    text-decoration: underline #373867;
+    font-family: serif;
+    font-size: 60px;
+    color:#373867;
+}
+
+/***********************Sidebar***********************/
+.sidebar{
+    display:none;
+}
+
+@media screen and (min-width: 768px){
+    .sidebar{
+        display:flex;
+        line-height: 26px;
+    }
+    .sidebar{
+        position: fixed;
+        float:left;
+        flex-direction: column;
+        box-sizing:border-box;
+        width: 20%;
+        height: 100%;
+        top:0%;
+        background-color: #AFAFC2;
+        line-height:17px;
+    }
+    
+    .btn-menu{
+        text-align: right;
+        color:#373867;
+    }
+    
+    .p-sidebar{
+        margin-left: 14%;
+        font-weight:bold;
+        color:#373867;
+    }
+    
+    .text-sidebar{
+        margin:10px;
+        margin-left: 14%;
+        color:#373867;
+    }
+    
+    .line-sidebar{
+        margin:20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #373867;
+    }
+}
+
+/***********************Formulario********************/
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:140px
+}
+
+h1{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 36px;
+    color:#373867;
+}
+
+.Formulario-employee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    height: 990px;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #EBEBF0;
+    box-shadow: 10px 10px 10px  grey;
+}
+
+input{
+    margin:20px;
+    border-radius: 4px 4px 4px 4px;
+    color:#373867;
+    height: 20px;
+}
+
+.button-forms{
+    margin:10px;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F11A41;
+    color:white
+}
+
+/************* Adaptación Desktop ********************/
+@media screen and (min-width: 768px){
+    .Formulario-employee{
+        width: 900px;
+        height: 600px;
+        margin-left: 260px;
+    }
+
+    .container-one{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .container-two{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .container-three{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .container-four{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .container-five{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .container-six{
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+
+    .button-forms{
+        text-align: center;
+        height: 40px;
+        width: 97%;
+        border-radius: 4px 4px 4px 4px;
+        background-color: #F11A41;
+        color:white
+    }
+}
+
+/************Version-Desktop******************/
+@media screen and (min-width: 1024px){
+    /************Version-Desktop-Modifica estilo*****************/
+    header{
+        position: inherit;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #373867;
+        background-color: white;
+    }
+
+    /************Version-Desktop-Desaparece Titulo******************/
+    .social-media-icon{
+        display:flex;
+        justify-content: right;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .Title-mobile{
+        display:none;
+    }
+}
