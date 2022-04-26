@@ -75,18 +75,26 @@ header{
 }
 
 h1{
+    text-align: center;
     font-family: serif;
     font-weight: bold;
     font-size: 36px;
     color:#373867;
 }
 
+.Formulario-register-employee{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:140px
+}
+
+
 .Formulario-employee{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 390px;
-    height: 990px;
+    text-align: center;
+    width: 300px;
     border-radius: 6px 6px 6px 6px;
     background-color: #EBEBF0;
     box-shadow: 10px 10px 10px  grey;
@@ -108,12 +116,73 @@ input{
     color:white
 }
 
-/************* Adaptación Desktop ********************/
+.message{
+    display:flex;
+    flex-direction: column;
+}
+/***********************Validaciones*****************/
+.correct{
+    display: flex;
+    color: green;
+}
+
+.error{
+    display: flex;
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+/************* Adaptación Tablet ********************/
 @media screen and (min-width: 768px){
     .Formulario-employee{
-        width: 900px;
-        height: 600px;
+        width: 400px;
+        height: 1000px;
         margin-left: 260px;
+    }
+
+    .button-forms{
+        text-align: center;
+        height: 40px;
+        width: 40%;
+        border-radius: 4px 4px 4px 4px;
+        background-color: #F11A41;
+        color:white
+    }
+}
+
+/************Version-Desktop******************/
+@media screen and (min-width: 1024px){
+    /************Version-Desktop-Modifica estilo*****************/
+    header{
+        position: inherit;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #373867;
+        background-color: white;
+    }
+
+    /************Version-Desktop-Desaparece Titulo******************/
+    .social-media-icon{
+        display:flex;
+        justify-content: right;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .Title-mobile{
+        display:none;
+    }
+
+    .Formulario-employee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 720px;
+        height: 610px;
+        box-shadow: 10px 10px 10px  grey;
     }
 
     .container-one{
@@ -155,33 +224,10 @@ input{
     .button-forms{
         text-align: center;
         height: 40px;
-        width: 97%;
-        border-radius: 4px 4px 4px 4px;
-        background-color: #F11A41;
-        color:white
-    }
-}
-
-/************Version-Desktop******************/
-@media screen and (min-width: 1024px){
-    /************Version-Desktop-Modifica estilo*****************/
-    header{
-        position: inherit;
-        border-bottom: solid;
-        border-width: 2px;
-        border-color: #373867;
-        background-color: white;
+        width: 27%;
     }
 
-    /************Version-Desktop-Desaparece Titulo******************/
-    .social-media-icon{
-        display:flex;
-        justify-content: right;
-        margin: 20px;
-        width: 100%;
-    }
-    
-    .Title-mobile{
-        display:none;
+    .message{
+        display: flex;
     }
 }

@@ -49,7 +49,4 @@ function validatePassword (){
     password.onfocus = function(){
         message[1].classList.add('hide');
     };
-
-
-
 }
