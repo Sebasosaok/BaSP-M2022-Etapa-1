@@ -97,7 +97,7 @@ var inputName = document.getElementById('firtsName')
 
 
 function validateName () {
-   if (inputName > 3) {
+   if (inputName.value.length > 3) {
        console.log('Name correct');
    } else {
        console.log('Name incorrecto')
