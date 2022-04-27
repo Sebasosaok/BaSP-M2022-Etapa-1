@@ -1,3 +1,4 @@
+/*
 
 window.onload = function(){
     var email = document.getElementById('email');
@@ -5,8 +6,8 @@ window.onload = function(){
     var message = document.getElementsByClassName("message");
     var format = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
     var formatPass = /[a-z]/;
-
-/**************Validate Email *************************/
+*/
+/**************Validate Email ************************
 
     function validateEmail (){
         if (!email.value.match(format)){
@@ -28,7 +29,9 @@ window.onload = function(){
     email.onfocus = function(){
         message[0].classList.add('hide');
     };
-/**************Validate Password *************************/
+
+*/
+/**************Validate Password ************************
 function validatePassword (){
     if (!password.value.match(formatPass)){
         message[1].classList.remove('hide');
@@ -50,3 +53,6 @@ function validatePassword (){
         message[1].classList.add('hide');
     };
 }
+*/
+
+
