@@ -153,4 +153,130 @@ function validateEmail () {
         console.log('Entry a valid Email format')
     }
 
+/*Teléfono: Solo número y debe tener 10 números.*/
+var inputTelefono = document.getElementById('telefono')
+
+
+function validateTelefono () {
+   if (inputTelefono.value.length > 9) {
+       console.log('Telefono correct');
+   } else {
+       console.log('Telefono incorrecto')
+   }
+}
+
+
+
+    inputTelefono.onblur = function(){
+        validateTelefono();
+    }
+
+    inputTelefono.onfocus = function(){
+        console.log('Entry a valid Telefono format')
+}
+
+/*Localidad: Texto alfanumérico y debe tener más de 3 letras. */
+var inputLocalidad = document.getElementById('localidad')
+
+
+function validateLocalidad () {
+   if (inputLocalidad.value.length > 2) {
+       console.log('Localidad correct');
+   } else {
+       console.log('Localidad incorrecto')
+   }
+}
+
+    inputLocalidad.onblur = function(){
+        validateLocalidad();
+    }
+
+    inputLocalidad.onfocus = function(){
+        console.log('Entry a valid Localidad format')
+}
+
+/*Código Postal: Solo número y debe tener entre 4 y 5 números. */
+var inputCp = document.getElementById('codigo postal')
+
+
+function validateCp () {
+   if (inputCp.value.length > 3) {
+       console.log('Codigo Postal correct');
+   } else {
+       console.log('Codigo Postal incorrecto')
+   }
+}
+
+    inputCp.onblur = function(){
+        validateCp();
+    }
+
+    inputCp.onfocus = function(){
+        console.log('Entry a valid Codigo Postal format')
+}
+
+/*Dirección: Al menos 5 caracteres con letras, números y un espacio en el medio.*/
+var inputDireccion = document.getElementById('direccion')
+
+
+function validateDireccion () {
+   if (inputDireccion.value.length > 6) {
+       console.log('Direccion correct');
+   } else {
+       console.log('Direcion incorrecto')
+   }
+}
+
+    inputDireccion.onblur = function(){
+        validateDireccion();
+    }
+
+    inputDireccion.onfocus = function(){
+        console.log('Entry a valid Dirección format')
+}
+
+/*Contraseña: Al menos 8 caracteres, formados por letras y números.*/
+var inputPassword = document.getElementById('password')
+
+
+function validatePassword () {
+   if (inputPassword.value.length > 7) {
+       console.log('Password correct');
+   } else {
+       console.log('Password incorrecto')
+   }
+}
+
+    inputPassword.onblur = function(){
+        validatePassword();
+    }
+
+    inputPassword.onfocus = function(){
+        console.log('Entry a Password format')
+}
+
+/*Repetir Contraseña: Al menos 8 caracteres, formados por letras y números.*/
+var inputRpassword = document.getElementById('repeat password')
+
+
+function validateRpassword () {
+   if (inputRpassword.value.length > 7) {
+       console.log('Re Password correct');
+   } else {
+       console.log('Re Password incorrecto')
+   }
+}
+
+    inputRpassword.onblur = function(){
+        validateRpassword();
+    }
+
+    inputRpassword.onfocus = function(){
+        console.log('Entry a Re Password format')
+}
+
+
+
+
+
 }
