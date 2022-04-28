@@ -77,7 +77,7 @@ window.onload = function(){
     var dni = document.getElementById('dni')
 
     function validateDNI () {
-        if (dni > 7) {
+        if (dni.value.length > 6) {
             console.log('DNI Correct')
         } else {
             console.log('DNI Invalid')
@@ -112,8 +112,45 @@ function validateName () {
         console.log('Entry a valid Name format')
 }
 
+/*Apellido, solo letras y debe tener más de 3 letras */
+
+var inputLastName = document.getElementById('lastName')
 
 
+function validateLastName () {
+   if (inputLastName.value.length > 3) {
+       console.log('Last Name correct');
+   } else {
+       console.log('Last Name incorrecto')
+   }
+}
 
+    inputLastName.onblur = function(){
+        validateLastName();
+    }
+
+    inputLastName.onfocus = function(){
+        console.log('Entry a valid Last Name format')
+}
+
+/*Email */
+var inputEmail = document.getElementById('email');
+var regex =/[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+
+function validateEmail () {
+    if (inputEmail.value.match (regex)) {
+        console.log( 'Email correct');
+    } else {
+        console.log('Email Incorrect')
+    }
+}
+
+    inputEmail.onblur = function(){
+        validateEmail();
+    }
+
+    inputEmail.onfocus = function(){
+        console.log('Entry a valid Email format')
+    }
 
 }
